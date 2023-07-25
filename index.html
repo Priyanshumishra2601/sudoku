@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+    <title>Sudoku</title>
+
+    <link rel="stylesheet" href="sudoku.css">
+    <script src="sudoku.js"></script>
+</head>
+
+<body>
+        <header>
+            <nav class="navbar">
+                <div class="max-width">
+                    <div class="logo"><a href="#">R<span>A</span>C<span>H</span>I<span>T</span></a></div>
+                    <ul class="menu">
+                        <li><a href="#hello" class="menu-btn">RULES</a></li>
+                       
+                    </ul>
+                    <div class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+   <section class="p1">
+    <h1>Sudoku</h1>
+    <hr>
+    <h2 id="errors">0</h2>
+
+    <!-- 9x9 board -->
+    <div id="board"></div>
+    <br>
+    <div id="digits">
+    </div>
+   </section>
+    
+        <div id="hello">
+            <div class="a3">
+                <h3>Sudoku Rules</h3>
+            <hr>
+            <td>
+                <tr>
+                   
+                            1.Each of the digits 1-9 must occur exactly once in each.<br><br>
+
+                        
+                            2.Each of the digits 1-9 must occur exactly once in each column. <br><br>
+
+                        
+                            3.Each of the digits 1-9 must occur exactly once in each of the 9 3*3 sub-boxes of the grid.
+                            <br><br><br>
+
+
+                    
+                        the '.' character indicates empty cells.
+                  
+
+                </tr>
+            </td>
+            </div>
+            
+        </div>
+    
+    
+</body>
+
+
+</html>
