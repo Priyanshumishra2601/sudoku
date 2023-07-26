@@ -181,6 +181,7 @@ hr {
         color: rgb(255, 255, 255);
         position: absolute;
         padding: 8px 50px;
+        text-align: center;
     
     }
     h1{
@@ -261,7 +262,7 @@ hr {
               color: rgb(255, 255, 255);
               position: absolute;
               padding: 8px 50px;
-          
+          text-align: center;
           }
           h1{
             padding: 70px;
@@ -342,6 +343,7 @@ hr {
                 color: rgb(255, 255, 255);
                 position: absolute;
                 padding: 35px 0px;
+                  text-align: center;
               
               }
               h1{
