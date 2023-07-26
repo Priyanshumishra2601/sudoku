@@ -162,22 +162,17 @@ hr {
         
     } 
     #digits {
-        width: 350px;
+        width: 450px;
         height: 50px;
     
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
     }
-    #board {
-    width: 200px;
-    height: 250px;
-
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-    
+    .p1{
+        width: 300px;
+        display: block;
+    }
     
 .navbar .menu li a {
     list-style: none;
@@ -189,8 +184,7 @@ hr {
         display: grid;
         color: rgb(255, 255, 255);
         position: absolute;
-        padding: 100px 30px;
-        text-align: center;
+        padding: 8px 50px;
     
     }
     h1{
@@ -271,7 +265,7 @@ hr {
               color: rgb(255, 255, 255);
               position: absolute;
               padding: 8px 50px;
-          text-align: center;
+          
           }
           h1{
             padding: 70px;
@@ -351,8 +345,7 @@ hr {
                 display: grid;
                 color: rgb(255, 255, 255);
                 position: absolute;
-                padding: 105px 50px;
-                  text-align: center;
+                padding: 35px 0px;
               
               }
               h1{
