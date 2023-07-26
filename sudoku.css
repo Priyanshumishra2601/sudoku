@@ -168,8 +168,13 @@ hr {
         display: flex;
         flex-wrap: wrap;
     }
+
+    #board {
+    width: 150%;
+    justify-items: center;
+}
     hr {
-    width: 200px;
+    width: 100%;
     text-align: center;
 }
     .p1{
