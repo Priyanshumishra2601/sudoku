@@ -171,6 +171,7 @@ hr {
 
     #board {
         margin: 20px -5px;
+        
 
     }
 
@@ -237,7 +238,7 @@ hr {
               display: grid;
               color: rgb(255, 255, 255);
               position: absolute;
-              padding: 8px 50px;
+              padding: 55px 80px;
           
           }
           h1{
