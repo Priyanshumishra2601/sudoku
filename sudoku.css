@@ -145,9 +145,7 @@ hr {
     display: inline-block;
     
 }
-.p1{
-    padding:80px ;
-}
+
 .logo{
     margin: 0 20px;
     
@@ -156,3 +154,201 @@ hr {
 .a3{
     background: #000000;
 }
+@media (max-width: 673px) {
+    .logo {
+      margin-left: 20px; }
+    .navbar{
+        width:100%;
+        
+    } 
+    #digits {
+        width: 450px;
+        height: 50px;
+    
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+.navbar .menu li a {
+    list-style: none;
+    display: inline-block;
+    color: #000000;
+}
+    #hello{
+        width: 400px;
+        display: grid;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 8px 50px;
+    
+    }
+    h1{
+        padding: 70px;
+        text-align: center;
+    }
+    
+    #errors {
+        color: coral;
+        text-align: center;
+    }
+}
+
+      @media (min-width: 1024px) {
+        .logo {
+            margin-left: 20px; }
+          .navbar{
+              width:100%;
+              display: block;
+          } 
+          #digits {
+              width: 450px;
+              height: 50px;
+          
+              margin: 0 auto;
+              display: flex;
+              flex-wrap: wrap;
+          }
+          
+      .navbar .menu li a {
+          list-style: none;
+          display: inline-block;
+          color: #000000;
+      }
+          #hello{
+              width: 400px;
+              display: grid;
+              color: rgb(255, 255, 255);
+              position: absolute;
+              padding: 8px 50px;
+          
+          }
+          h1{
+            padding: 70px;
+            text-align: center;
+        }
+          
+          #errors {
+              color: coral;
+              text-align: center;
+          }
+      
+      }
+      @media (max-width: 768px) {
+        .logo {
+            margin-left: 20px; }
+          .navbar{
+              width:100%;
+              display: block;
+          } 
+          #digits {
+              width: 450px;
+              height: 50px;
+          
+              margin: 0 auto;
+              display: flex;
+              flex-wrap: wrap;
+          }
+          
+      .navbar .menu li a {
+          list-style: none;
+          display: inline-block;
+          color: #000000;
+      }
+          #hello{
+              width: 400px;
+              display: grid;
+              color: rgb(255, 255, 255);
+              position: absolute;
+              padding: 8px 50px;
+          
+          }
+          h1{
+            padding: 70px;
+            text-align: center;
+        }
+          
+          #errors {
+              color: coral;
+              text-align: center;
+          }
+       }
+
+@media (max-width: 991px) {
+    .logo {
+        margin-left: 20px; }
+      .navbar{
+          width:100%;
+          display: block;
+      } 
+      #digits {
+          width: 450px;
+          height: 50px;
+      
+          margin: 0 auto;
+          display: flex;
+          flex-wrap: wrap;
+      }
+      
+  .navbar .menu li a {
+      list-style: none;
+      display: inline-block;
+      color: #000000;
+  }
+      #hello{
+          width: 400px;
+          display: grid;
+          color: rgb(255, 255, 255);
+          position: absolute;
+          padding: 8px 50px;
+      
+      }
+      h1{
+        padding: 70px;
+        text-align: center;
+    
+      }
+      #errors {
+          color: coral;
+          text-align: center;
+      }
+     }
+
+ 
+          @media (max-width: 767.98px) {
+            .logo {
+                margin-left: 20px; }
+              .navbar{
+                  width:100%;
+                  display: block;
+              } 
+              #digits {
+                  width: 450px;
+                  height: 50px;
+              
+                  margin: 0 auto;
+                  display: flex;
+                  flex-wrap: wrap;
+              }
+              
+          .navbar .menu li a {
+              list-style: none;
+              display: inline-block;
+              color: #000000;
+          }
+              #hello{
+                width: 300px;
+                display: grid;
+                color: rgb(255, 255, 255);
+                position: absolute;
+                padding: 35px 0px;
+              
+              }
+              h1{
+                  text-align: center;
+              }
+              #errors {
+                  color: coral;
+                  text-align: center;
+              }
+          }
